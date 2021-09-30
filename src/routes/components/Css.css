@@ -1,0 +1,69 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbarhover:hover{
+    background-color: rgb(233, 229, 229);
+}
+.my-main{
+    width: 88%;
+    margin: auto;
+    margin-top: 50px;
+}
+
+
+.recentdivwrapper{
+    margin-top: 70px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.Mappingdiv{
+    width: 330px;
+    height: 20%;
+    margin: 20px;
+}
+
+.forhover{
+    position:absolute;
+    opacity: 0;
+    width: 330px;
+    height: 200px;
+    background-color: black;
+}
+.forhover:hover{
+    opacity: 0.4;
+    transition: .8s;
+    cursor: pointer;
+}
+.categorymap{
+    width: auto;
+    padding: 7px;
+    height: 30px;
+    background-color: orange;
+    color: white;
+    font-weight: 200;
+    box-shadow: 0px 0px 2px rgb(85, 78, 78);
+
+}
+.categorymap:hover{
+    cursor: pointer;
+    background-color: rgb(255, 102, 0);
+    box-shadow: 0px 0px 6px rgb(85, 78, 78);
+   
+}
+.datemap{
+    color: rgb(27, 29, 31);
+    padding: 7px;
+    margin-left: 20px;
+}
+.recentposttext{
+    margin-left: 3%;
+}
+.titlemap{
+    margin-top: 10px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: rgb(53, 53, 48);
+}
