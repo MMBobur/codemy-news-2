@@ -1,7 +1,7 @@
 import React, { useState, useEffect,forwardRef,useImperativeHandle } from 'react'
 import { Switch, BrowserRouter as Router, Route, Redirect, NavLink } from 'react-router-dom';
 const baseURL = 'http://localhost:3000/api/news';
-import axios from 'axios'
+import axios from 'axios';
 const RecentPosts = (props) => {
 
     const [login, setlogin] = useState()
@@ -66,5 +66,5 @@ const RecentPosts = (props) => {
     )
 }
 
-export default RecentPosts = {Post}
+export default RecentPosts 
 
